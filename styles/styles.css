@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(67, 70, 70);
+    color: rgb(240, 231, 231);
+    /* font-family: 'Fuzzy Bubbles', cursive; */
+    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Yanone Kaffeesatz', sans-serif;  
+}
+header {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+nav {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+div {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
