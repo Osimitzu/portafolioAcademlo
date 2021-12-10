@@ -12,6 +12,22 @@ body {
 
 nav {
     background-color: #FBFFE2;
+    height: 85px;
+    padding: 15px;
+    box-shadow: 0px 13px 50px #FFAFAF;
 }
+
+nav>ul {
+    background-color: aqua;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
 
 
