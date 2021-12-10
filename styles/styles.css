@@ -18,6 +18,24 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*background-image: url("./imagenes/io.jpg");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 0vw;
+    background-position-x: 6rem;*/
+}
+div#nav {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div>img {
+    width: 80px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    
 }
 
 nav>ul {
@@ -39,6 +57,7 @@ nav>ul>li>a {
     font-size: 1.5rem;
     color: black;
 }
+
 
 
 
