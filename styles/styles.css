@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,25 +6,27 @@
 }
 
 body {
-    background-color: rgb(67, 70, 70);
-    color: rgb(240, 231, 231);
-    /* font-family: 'Fuzzy Bubbles', cursive; */
-    /* font-family: 'Fjalla One', sans-serif;  */
-    font-family: 'Yanone Kaffeesatz', sans-serif;  
-}
-header {
-    font-family: 'Fjalla One', sans-serif;
+    background-color: #FFEBCC;
+    color: black;
 }
 
 nav {
-    font-family: 'Fjalla One', sans-serif;
+    background-color: #FBFFE2;
+    width: 80px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
 
-div {
-    font-family: 'Fuzzy Bubbles', cursive;
+nav>ul {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-h4 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-}
 
