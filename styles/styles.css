@@ -12,21 +12,6 @@ body {
 
 nav {
     background-color: #FBFFE2;
-    width: 80px;
-    height: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-}
-
-nav>ul {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 
