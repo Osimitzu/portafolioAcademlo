@@ -58,10 +58,10 @@ h1 {
     .contMenuActive {
         background-color: #424242;
         box-shadow: 2px 0px 5px 2px #666666;
-        width: 400px;
+        width: 200px;
         height: 100vh;
         position: absolute;
-        bottom: -85px;
+        bottom: -100px;
         left: 0;
         transition: all .5s ease;
     }
