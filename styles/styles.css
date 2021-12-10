@@ -20,11 +20,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*background-image: url("./imagenes/io.jpg");
-    background-repeat: no-repeat;
-    background-size: 70px;
-    background-position: 0vw;
-    background-position-x: 6rem;*/
 }
 div#nav {
     /*background-color: blueviolet;*/
@@ -42,36 +37,50 @@ div>img {
 }
 
 h1 {
-    font-size: 2.3rem;
+    font-size: 2.5vw;
     text-align: center;
 }
 
-nav>ul {
-    background-color: aqua;
-    display: flex;
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    justify-content: space-evenly;
+@media only screen and ( min-width: 360px){
+    
 }
 
-nav>ul>li {
-    list-style: none;
-    /*padding: 5px 10px;*/
+@media only screen and ( min-width: 768px){
+    
 }
 
-nav>ul>li>a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: black;
-}
 
-li:hover {
-    border-bottom: 5px solid #FFAFAF;
-    cursor: pointer;
-    transition: all .1s linear;
-}
+@media only screen and ( min-width: 1024px){
 
+    nav>ul {
+        background-color: turquoise;
+        display: flex;
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    nav>ul>li {
+        list-style: none;
+        /*padding: 5px 10px;*/
+        /*background-color: tomato;*/
+        margin-right: 2rem;
+    }
+
+    nav>ul>li>a {
+        text-decoration: none;
+        font-size: 1.3vw;
+        color: black;  
+    }
+    
+    li:hover {
+        border-bottom: 5px solid #FFAFAF;
+        cursor: pointer;
+        transition: all .1s linear;
+    }
+    
+}
 
 
 
