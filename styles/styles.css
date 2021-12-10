@@ -42,6 +42,58 @@ h1 {
 }
 
 @media only screen and ( min-width: 360px){
+    /*Estilos para el icono del menu*/
+    .iconoMenu {
+        margin: 40px 50px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .iconoMenu img {
+        vertical-align: top;
+        width: 40px;
+        cursor: pointer;
+    }
+    /*Estilos para el contenedor del menu*/
+    .contMenuActive {
+        background-color: #424242;
+        box-shadow: 2px 0px 5px 2px #666666;
+        width: 400px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .5s ease;
+    }
+
+    /*Estilos por agregar en JavaScript*/
+    .active {
+        transform: translate(-600px);
+    }
+    .opacity {
+        background-color: black;
+        transition: all .5s ease;
+    }
+
+    /*Estilos para el listado del menu*/
+    .contMenuActive ul {
+        padding: 100px 0px 20px 0px;
+        list-style: none;  
+    }
+
+    .contMenuActive ul {
+        color: white;
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px 50px;
+        cursor: pointer;
+    }
+
+    .contMenuActive ul li:hover {
+        background-color: white;
+        color: #424242;
+    }
     
 }
 
