@@ -82,7 +82,10 @@ i {
     /*Estilos por agregar en JavaScript*/
     .active {
         transform: translate(600px);
+        visibility: hidden;
+        /*display: none;*/
     }
+
     .opacity {
         background-color: #009DAE;
         transition: all .1s ease;
@@ -190,8 +193,6 @@ i {
         cursor: pointer;
         transition: all .1s linear;
     }
-
-    
 }
 
 
