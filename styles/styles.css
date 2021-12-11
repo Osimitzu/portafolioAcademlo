@@ -55,7 +55,7 @@ i {
         z-index: 10;
     }*/
     nav>ul {
-        visibility: hidden;
+        display: none;
     }
 
     #iconoMenu {
@@ -120,11 +120,11 @@ i {
 @media only screen and ( min-width: 1024px){
 
     div.iconMenu {
-        visibility: hidden;
+        display: none;
     }
 
     .contMenuActive {
-        visibility: hidden;
+        display: none;
     }
 
     nav>ul {
