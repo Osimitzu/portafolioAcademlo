@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    background-color: #C2FFF9;
+    background-color: #c2fff9cb;
     /*background-color: transparent;*/
     height: 85px;
     padding: 15px;
@@ -39,11 +39,6 @@ div>img {
     
 }
 
-h1 {
-    font-size: 2.5vw;
-    text-align: center;
-}
-
 i {
     color: #FFE652;
 }
@@ -57,6 +52,11 @@ i {
         position: absolute;
         z-index: 10;
     }*/
+    h1 {
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
     nav>ul {
         display: none;
     }
@@ -149,6 +149,11 @@ i {
 /*PANTALLAS COMPUTADORAS (+1024 pixeles)*/
 @media only screen and ( min-width: 1024px){
 
+    h1 {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    
     div.iconMenu {
         display: none;
     }
