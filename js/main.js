@@ -1,4 +1,4 @@
-
+//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA
 const iconoMenu = document.querySelector('#iconoMenu'),
     menu =document.querySelector('#menu');
 
@@ -16,3 +16,4 @@ iconoMenu.addEventListener('click', (e) => {
         e.target.setAttribute('src', 'fas fa-bars fa-3x');
     }
 });
+//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA
