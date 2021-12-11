@@ -6,17 +6,17 @@
 }
 
 body {
-    background-color: #FFEBCC;
+    background-color: #009DAE;
     color: black;
-    background-image: url("./imagenes/fondo2.png");
+    /*background-image: url("./imagenes/fondo2.png");*/
 }
 
 nav {
-    background-color: #FBFFE2;
+    background-color: #C2FFF9;
     /*background-color: transparent;*/
     height: 85px;
     padding: 15px;
-    box-shadow: 0px 13px 50px #FFAFAF;
+    box-shadow: 0 20px 25px #71DFE7;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@ h1 {
 }
 
 i {
-    color: #FFAFAF;
+    color: #FFE652;
 }
 
 /*PANTALLAS CELULARES*/
@@ -65,8 +65,8 @@ i {
     }
     /*Estilos para el contenedor del menu*/
     .contMenuActive {
-        background-color: #ffafafa1;
-        box-shadow: 5px 5px 5px 5px #FFEBCC;
+        background-color: #71dfe7;
+        box-shadow: 5px 5px 5px 5px #009DAE;
         width: 50vw;
         height: 100vh;
         position: absolute;
@@ -80,7 +80,7 @@ i {
         transform: translate(600px);
     }
     .opacity {
-        background-color: #ffebcc;
+        background-color: #009DAE;
         transition: all .1s ease;
     }
 
@@ -89,19 +89,28 @@ i {
         padding: 100px 0px 20px 0px;
         list-style: none; 
     }
-
+    
     .contMenuActive ul {
-        color: white;
-        display: block;
-        font-size: 5vw;
-        text-decoration: none;
-        padding: 10px 50px;
+        color: rgb(10, 10, 10);
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+        display: contents;
         cursor: pointer;
+    }
+    .contMenuActive ul li {
+        background-color: red;
+        margin: 10px;
+        padding: 10px;
+        font-size: 1.5rem;
+        text-align: center;
+        list-style: none;
+        text-decoration: none;
     }
 
     .contMenuActive ul li:hover {
-        background-color: #ffebcc;
-        color: #FFAFAF;
+        background-color: #009DAE;
+        color: #FFE652;
     }
     /*//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA*/
     
@@ -151,7 +160,7 @@ i {
     }
     
     li:hover {
-        border-bottom: 5px solid #FFAFAF;
+        border-bottom: 5px solid #FFE652;
         cursor: pointer;
         transition: all .1s linear;
     }
