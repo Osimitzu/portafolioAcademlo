@@ -46,7 +46,7 @@ i {
 }
 
 /*PANTALLAS CELULARES*/
-@media only screen and ( min-width: 360px){
+@media only screen and ( min-width: 350px){
     /*//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA*/
     /*Estilos para el icono del menu*/
     /*#iconoMenu {
@@ -60,12 +60,13 @@ i {
 
     #iconoMenu {
         width: auto;
-        cursor: pointer;    
+        cursor: pointer;
+        /*margin-left: 60vw;*/
     }
     /*Estilos para el contenedor del menu*/
     .contMenuActive {
         background-color: #ffafafa1;
-        box-shadow: 2px 0px 5px 2px #FFEBCC;
+        box-shadow: 5px 5px 5px 5px #FFEBCC;
         width: 50vw;
         height: 100vh;
         position: absolute;
@@ -122,6 +123,10 @@ i {
         visibility: hidden;
     }
 
+    .contMenuActive {
+        visibility: hidden;
+    }
+
     nav>ul {
         /*background-color: turquoise;*/
         visibility: visible;
@@ -150,6 +155,7 @@ i {
         cursor: pointer;
         transition: all .1s linear;
     }
+
     
 }
 
