@@ -137,6 +137,14 @@ i {
         color: #FFE652;
     }
     /*//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA*/
+
+    a>img {
+        margin: 30px;
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50%;
+        box-shadow: 10px 10px 50px purple;
+    }
     
 }
 
@@ -192,7 +200,7 @@ i {
         border-bottom: 5px solid #FFE652;
         cursor: pointer;
         transition: all .1s linear;
-    }
+    }   
 }
 
 
