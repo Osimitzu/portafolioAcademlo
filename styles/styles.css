@@ -192,12 +192,12 @@ body::-webkit-scrollbar-thumb {
         text-transform: uppercase;
         position: relative;
         font-weight: bold;
-        width: 32ch;  /*1ch = 1character*/
+        width: 34ch;  /*1ch = 1character*/
         overflow: hidden; /*Que va a ocurrir cuando el elemento no es suficientemente grande*/
         white-space: nowrap; /*Manipular como se ve el texto cuando no se alcanzan a mostrar completos // nowrap = texto en una sola linea*/ 
         border-right: 3px solid black;
     
-        animation: maquinaDeEscribir 2s steps(32), cursor .5s step-end infinite alternate;
+        animation: maquinaDeEscribir 2s steps(34), cursor .5s step-end infinite alternate;
     }
     
     main {
