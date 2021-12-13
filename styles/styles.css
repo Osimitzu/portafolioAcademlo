@@ -172,7 +172,7 @@ i {
         color: #FFE652;
     }
     /*//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA*/
-    /*
+    
     header{
         height: 100vh;
         display: flex;
@@ -189,13 +189,13 @@ i {
         position: relative;
         font-weight: bold;
         width: 32ch;  /*1ch = 1character*/
-    /*    overflow: hidden; /*Que va a ocurrir cuando el elemento no es suficientemente grande*/
-    /*    white-space: nowrap; /*Manipular como se ve el texto cuando no se alcanzan a mostrar completos // nowrap = texto en una sola linea*/ 
-    /*    border-right: 3px solid black;
+        overflow: hidden; /*Que va a ocurrir cuando el elemento no es suficientemente grande*/
+        white-space: nowrap; /*Manipular como se ve el texto cuando no se alcanzan a mostrar completos // nowrap = texto en una sola linea*/ 
+        border-right: 3px solid black;
     
         animation: maquinaDeEscribir 2s steps(32), cursor .5s step-end infinite alternate;
     }
-    */
+    
     main {
         background-color: rgba(255, 255, 255, 0.37);
         
@@ -313,10 +313,9 @@ i {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: violet;
     }
     
-    header>h1 {            
+    header>h1 {         
         font-size: 4vw;
         text-align: center;
         
@@ -351,7 +350,7 @@ i {
         padding: 10;
         width: 50vw;
     }
-
+    
 }
 
 
