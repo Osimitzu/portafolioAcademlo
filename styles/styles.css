@@ -1,50 +1,84 @@
+/*
+//TITULOS
+font-family: 'Balsamiq Sans', cursive;
 
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Fuzzy+Bubbles:wght@700&family=Roboto&family=Yanone+Kaffeesatz&display=swap');
+//CARDS
+font-family: 'Fuzzy Bubbles', cursive;
+
+//ESTANDAR
+font-family: 'Roboto', sans-serif;
+
+//fuenteMonoEspaciada
+font-family: 'Fira Mono', monospace;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Fira+Mono:wght@400;500;700&family=Fuzzy+Bubbles:wght@700&family=Roboto&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Balsamiq Sans', cursive;
+    /*font-family: 'Balsamiq Sans', cursive;*/
+    font-family: 'Fira Mono', monospace;
 }
 
 body {
     background-color: #009DAE;
     color: black;
-    background-image: url("./imagenes/fondo3.png")
-}
-
-nav {
-    background-color: #c2fff9cb;
-    /*background-color: transparent;*/
-    height: 85px;
-    padding: 15px;
-    box-shadow: 0 20px 25px #71DFE7;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-div#nav {
-    /*background-color: blueviolet;*/
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-div>img {
-    width: 80px;
-    padding: 10px;
-    border-radius: 50%;
-    display: flex;
-    
+    background-image: url("./imagenes/fondo3.png") 
 }
 
 i {
     color: #FFE652;
 }
 
+
+
 /*PANTALLAS CELULARES*/
 @media only screen and ( min-width: 350px){
+    
+    nav>ul {
+        display: none;
+    }
+
+    nav {
+        /*background-color: #c2fff9;*/
+        /*background-color: transparent;*/
+        position: fixed;
+        z-index: 9;
+        background-color: tomato;
+        width: 100vw;
+        height: 85px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div#nav {
+        /*background-color: blueviolet;*/
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    div#nav>a{
+        /*background-color: violet;*/
+        width: max-content;
+        display: flex;
+    }
+    
+    div#nav>a>span {
+        color: black;
+        text-transform: uppercase;
+        justify-content: center ;
+        text-align: center;
+        font-size: 1rem;
+    }
+    div#nav>a>span#web {
+        color: #FFE652;
+    }
+
     /*//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA*/
     /*Estilos para el icono del menu*/
     /*#iconoMenu {
@@ -57,12 +91,13 @@ i {
         text-align: center;
     }
 
-    nav>ul {
-        display: none;
-    }
 
-    #iconoMenu {
-        width: auto;
+    div.iconMenu img {
+        /*background-color: turquoise;*/
+        width: 80px;
+        margin: 0;
+        padding: 10px;
+        display: flex;
         cursor: pointer;
         /*margin-left: 60vw;*/
     }
@@ -137,21 +172,52 @@ i {
         color: #FFE652;
     }
     /*//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA*/
-
-    a>img {
-        margin: 30px;
-        width: 40vw;
-        height: 40vw;
-        border-radius: 50%;
-        box-shadow: 10px 10px 50px purple;
+    /*
+    header{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    h1 {
+        font-size: 4.5vw;
+        text-align: center;
+
     
+        text-transform: uppercase;
+        position: relative;
+        font-weight: bold;
+        width: 32ch;  /*1ch = 1character*/
+    /*    overflow: hidden; /*Que va a ocurrir cuando el elemento no es suficientemente grande*/
+    /*    white-space: nowrap; /*Manipular como se ve el texto cuando no se alcanzan a mostrar completos // nowrap = texto en una sola linea*/ 
+    /*    border-right: 3px solid black;
+    
+        animation: maquinaDeEscribir 2s steps(32), cursor .5s step-end infinite alternate;
+    }
+    */
+    main {
+        background-color: rgba(255, 255, 255, 0.37);
+        
+    }
+    main>section>img {
+        width: 100vw;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20%;
+    }
+    main>aside{
+        margin: 10;
+        padding: 10;
+        width: 50vw;
+    }
 }
 
 
 
 /*Pantallas Tablets*/
 @media only screen and ( min-width: 768px){
+    
     
 }
 
@@ -160,17 +226,55 @@ i {
 /*PANTALLAS COMPUTADORAS (+1024 pixeles)*/
 @media only screen and ( min-width: 1024px){
 
-    h1 {
-        font-size: 2.5vw;
-        text-align: center;
-    }
-    
+    /*body {
+        overflow-x: hidden;
+    }*/
+
     div.iconMenu {
         display: none;
     }
-
+    
     .contMenuActive {
         display: none;
+    }
+
+    nav {
+        /*background-color: #c2fff9;*/
+        /*background-color: transparent;*/
+        position: fixed;
+        z-index: 10;
+        background-color: tomato;
+        width: 100vw;
+        height: 85px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div#nav {
+        /*background-color: blueviolet;*/
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    div#nav>a{
+        /*background-color: violet;*/
+        width: max-content;
+        display: flex;
+    }
+    
+    div#nav>a>span {
+        color: black;
+        text-transform: uppercase;
+        justify-content: center ;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    div#nav>a>span#web {
+        color: #FFE652;
     }
 
     nav>ul {
@@ -181,13 +285,14 @@ i {
         height: 100%;
         align-items: center;
         justify-content: space-evenly;
+        background-color: violet;
     }
     
     nav>ul>li {
         list-style: none;
         /*padding: 5px 10px;*/
-        /*background-color: tomato;*/
-        margin-right: 2rem;
+        background-color: turquoise;
+        
     }
 
     nav>ul>li>a {
@@ -196,13 +301,100 @@ i {
         color: black;  
     }
     
-    li:hover {
-        border-bottom: 5px solid #FFE652;
+    nav>ul>li>a:hover {
+        color: #FFE652;
         cursor: pointer;
-        transition: all .1s linear;
-    }   
+        transition: all .05s linear;
+    }
+    
+     /*AnimacionMaquinaDeEscribirNORESPONSIVA//AnimacionMaquinaDeEscribirNORESPONSIVA*/
+    header {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: violet;
+    }
+    
+    header>h1 {            
+        font-size: 4vw;
+        text-align: center;
+        
+        text-transform: uppercase;
+        position: relative;
+        font-weight: bold;
+        width: 34ch;  /*1ch = 1character*/
+        overflow: hidden; /*Que va a ocurrir cuando el elemento no es suficientemente grande*/
+        white-space: nowrap; /*Manipular como se ve el texto cuando no se alcanzan a mostrar completos // nowrap = texto en una sola linea*/ 
+        border-right: 3px solid black;
+    
+        animation: maquinaDeEscribir 3s steps(34), cursor .5s step-end infinite alternate;
+    }
+    /*AnimacionMaquinaDeEscribirNORESPONSIVA//AnimacionMaquinaDeEscribirNORESPONSIVA*/
+
+    main {
+        background-color: rgba(255, 255, 255, 0.37);
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main>section>img {
+        width: 30vw;
+        margin: 50px;
+        padding: 10px;
+        border-radius: 10%;
+    }
+
+    main>aside {
+        margin: 10;
+        padding: 10;
+        width: 50vw;
+    }
+
 }
 
 
+
+
+
+/*ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS*/
+@keyframes cambiarColor {
+    0% {
+        background-color: black;
+    }
+    
+    25% {
+        background-color: #009DAE;
+    }
+    
+    50% {
+        background-color: #71DFE7;
+    }
+    
+    75% {
+        background-color: #C2FFF9;
+    }
+    
+    100% {
+        background-color: #FFE652;
+    }    
+}
+
+@keyframes maquinaDeEscribir {
+    0% {
+        width: 0ch;
+    }
+
+    100% {
+        width: 34ch;
+    }
+}
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+/*ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS*/
 
 

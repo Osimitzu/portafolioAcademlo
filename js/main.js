@@ -1,5 +1,5 @@
 //MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA
-const iconoMenu = document.querySelector('#iconoMenu'),
+const iconoMenu = document.querySelector('.iconMenu'),
     menu =document.querySelector('#menu');
 
 iconoMenu.addEventListener('click', (e) => {
@@ -10,10 +10,10 @@ iconoMenu.addEventListener('click', (e) => {
     //Alternar atributo "src" para el icono del menú
     const rutaActual = e.target.getAttribute('src');
 
-    if (rutaActual == 'fas fa-bars fa-3x'){
-        e.target.setAttribute('src', 'fas fa-bars2 fa-3x');
+    if (rutaActual == './styles/imagenes/menuHamburguesa.png'){
+        e.target.setAttribute('src', './styles/imagenes/menuHamburguesa.png');
     }else{
-        e.target.setAttribute('src', 'fas fa-bars fa-3x');
+        e.target.setAttribute('src', './styles/imagenes/menuHamburguesa.png');
     }
 });
 //MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA
