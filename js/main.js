@@ -1,5 +1,5 @@
 //MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA
-const iconoMenu = document.querySelector('.iconMenu'),
+const iconoMenu = document.querySelector('#incono-menu'),
     menu =document.querySelector('#menu');
 
 iconoMenu.addEventListener('click', (e) => {
