@@ -43,9 +43,6 @@ i {
     nav {
         /*background-color: #c2fff9;*/
         /*background-color: transparent;*/
-        position: fixed;
-        z-index: 9;
-        background-color: tomato;
         width: 100vw;
         height: 85px;
         padding: 10px;
@@ -239,11 +236,10 @@ i {
     }
 
     nav {
-        /*background-color: #c2fff9;*/
-        /*background-color: transparent;*/
+        /*background-color: #c2fff9;
+        background-color: transparent;*/
         position: fixed;
         z-index: 10;
-        background-color: tomato;
         width: 100vw;
         height: 85px;
         padding: 10px;
@@ -285,13 +281,11 @@ i {
         height: 100%;
         align-items: center;
         justify-content: space-evenly;
-        background-color: violet;
     }
     
     nav>ul>li {
         list-style: none;
-        /*padding: 5px 10px;*/
-        background-color: turquoise;
+        /*padding: 5px 10px;*/  
         
     }
 
