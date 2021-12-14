@@ -50,7 +50,6 @@ body::-webkit-scrollbar-thumb {
     }
 
     nav {
-        background-color: tomato;
         display: grid;
         width: 100%;
     }
@@ -178,11 +177,10 @@ body::-webkit-scrollbar-thumb {
     }
     
     main {
-        background-color: rgb(255, 255, 255);
-        display: grid;
-        grid-template-columns: 1 fr;
+        background-color: #71DFE7;
+        box-shadow: 10px 5px 10px 10px #C2FFF9;
+        border-radius: 1%;
         width: 100%;
-        
     }
     main>section>img {
         width: 100%;
@@ -191,8 +189,36 @@ body::-webkit-scrollbar-thumb {
     main>section>aside{
         background-color: rgba(255, 99, 71, 0);
         width: 100%;
-        
-        border-radius: 10%;
+        text-align: center;
+        display: flex;
+        justify-self: center;
+    }
+
+    footer {
+        height: 85px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+    }
+    footer>div>{
+        width: 20%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer>div>a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer>div>a>img {
+        width: 80%;
     }
 }
 
