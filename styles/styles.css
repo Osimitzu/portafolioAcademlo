@@ -204,6 +204,37 @@ body::-webkit-scrollbar-thumb {
         justify-self: center;
     }
 
+    div.gridContainer{
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    div.gridContainer header {
+        background-color: #FFE652;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 7vw;
+        font-weight: bold;
+        display: grid;
+        grid-column: 1 / -1;
+        box-shadow: 10px 5px 10px 10px #C2FFF9;
+    }
+    
+    div.gridContainer div.card {
+        background-color: #71DFE7;
+        box-shadow: 5px 3px 5px 2px #C2FFF9;
+        display: flex;
+        justify-content: center;
+        border: 3px solid black;
+        width: 80%;
+        height: 90vw;
+        margin: auto;
+        border-radius: 10%;
+    }
+    
+
     footer {
         height: 85px;
         display: grid;
@@ -255,10 +286,41 @@ body::-webkit-scrollbar-thumb {
         width: 80%;
         text-align: center;
     } 
+    
+    div.gridContainer{
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    div.gridContainer header {
+        background-color: #FFE652;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 7vw;
+        font-weight: bold;
+        display: grid;
+        grid-column: 1 / -1;
+        box-shadow: 10px 5px 10px 10px #C2FFF9;
+    }
+    
+    div.gridContainer div.card {
+        background-color: #71DFE7;
+        box-shadow: 5px 3px 5px 2px #C2FFF9;
+        display: flex;
+        justify-content: center;
+        border: 3px solid black;
+        width: 80%;
+        height: 60vw;
+        margin: auto;
+        border-radius: 10%;
+    }
+
     footer>div>a>img {
         width: 30%; 
-    }   
-
+    }
+    
 }
 
 
@@ -400,6 +462,41 @@ body::-webkit-scrollbar-thumb {
         text-align: center;
         font-size: 1.5vw;
     
+    }
+
+    div.gridContainer{
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    div.gridContainer header {
+        background-color: #FFE652;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 7vw;
+        font-weight: bold;
+        display: grid;
+        grid-column: 1 / -1;
+        box-shadow: 10px 5px 10px 10px #C2FFF9;
+    }
+    
+    div.gridContainer div.card {
+        background-color: #71DFE7;
+        box-shadow: 5px 3px 5px 2px #C2FFF9;
+        display: flex;
+        justify-content: center;
+        border: 3px solid black;
+        width: 80%;
+        height: 40vw;
+        margin: auto;
+        border-radius: 10%;
+    }
+    div.gridContainer div.card:hover {
+        width: 82%;
+        box-shadow: 6px 4px 6px 3px #C2FFF9;
+        transition: all .2s ;
     }
 
     footer {
