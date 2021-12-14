@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*PANTALLAS CELULARES*/
-@media only screen and ( min-width: 350px){
+@media only screen and ( min-width: 350px) {
 
     nav>header>ul {
         display: none;
@@ -84,7 +84,7 @@ body::-webkit-scrollbar-thumb {
     /*//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA//MENU HAMBURGUESA*/
     /*Estilos para el icono del menu*/
     
-    .icono-menu{
+    .icono-menu {
         margin: 0;
         padding: 15px;
         position: relative;
@@ -92,7 +92,7 @@ body::-webkit-scrollbar-thumb {
 
     }
 
-    .icono-menu img{
+    .icono-menu img {
         /*background-color: turquoise;*/
         width: 80px;
         margin: 0;
@@ -189,7 +189,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         border-radius: 50%;
     }
-    main>section>aside{
+    main>section>aside {
         background-color: rgba(255, 99, 71, 0);
         width: 100%;
         text-align: center;
@@ -208,7 +208,7 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
         align-items: center;
     }
-    footer>div>{
+    footer>div {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -244,12 +244,15 @@ body::-webkit-scrollbar-thumb {
         width: 80%;
         border-radius: 50%;
     }
-    main>section>aside{
+    main>section>aside {
         width: 80%;
         text-align: center;
-    
-}
+    } 
+    footer>div>a>img {
+        width: 30%; 
+    }   
 
+}
 
 
 /*PANTALLAS COMPUTADORAS (+1024 pixeles)*/
@@ -403,7 +406,7 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
         align-items: center;
     }
-    footer>div>{
+    footer>div {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -465,5 +468,4 @@ body::-webkit-scrollbar-thumb {
     100% {
         transform: rotate(360deg);
     }
-}
 }
