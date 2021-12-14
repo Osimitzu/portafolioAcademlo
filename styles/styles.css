@@ -65,12 +65,15 @@ body::-webkit-scrollbar-thumb {
     }
     #nav>a>span {
         color: black;
+        text-transform: uppercase;
+        justify-content: center ;
+        text-align: center;
+        font-size: 1rem;
     }
     
     a span#web {
         color: #FFE652;
-        width: max-content;
-
+        
         animation-name: rotar;
         animation-duration: 1s;
         animation-delay: 0s;
@@ -206,19 +209,19 @@ body::-webkit-scrollbar-thumb {
         align-items: center;
     }
     footer>div>{
-        width: 20%;
-        height: 20%;
         display: flex;
         justify-content: center;
         align-items: center;
+        justify-content: space-evenly;
     }
     footer>div>a {
         display: flex;
         justify-content: center;
         align-items: center;
+        justify-content: space-evenly;
     }
     footer>div>a>img {
-        width: 80%;
+        width: 50%; 
     }
 }
 
@@ -226,6 +229,24 @@ body::-webkit-scrollbar-thumb {
 
 /*Pantallas Tablets*/
 @media only screen and ( min-width: 768px){
+
+    main {
+        background-color: #71DFE7;
+        box-shadow: 10px 5px 10px 10px #C2FFF9;
+        border-radius: 1%;
+        width: 100%;
+    }
+    main>section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main>section>img {
+        width: 80%;
+        border-radius: 50%;
+    }
+    main>section>aside{
+        width: 80%;
+        text-align: center;
     
 }
 
@@ -351,30 +372,53 @@ body::-webkit-scrollbar-thumb {
     /*AnimacionMaquinaDeEscribirNORESPONSIVA//AnimacionMaquinaDeEscribirNORESPONSIVA*/
 
     main {
-        background-color: rgba(255, 255, 255, 0.37);
-        width: 100vw;
+        background-color: #71DFE7;
+        box-shadow: 10px 5px 10px 10px #C2FFF9;
+        border-radius: 1%;
+        width: 100%;
+    }
+    main>section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main>section>img {
+        width: 80%;
+        border-radius: 50%;
+    }
+    main>section>aside{
+        width: 80%;
+        text-align: center;
+        font-size: 1.5vw;
+    
+    }
+
+    footer {
+        height: 85px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2px;
+        width: 100%;
         display: flex;
         justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
     }
-
-    main>section>img {
-        width: 30vw;
-        margin: 50px;
-        padding: 10px;
-        border-radius: 10%;
+    footer>div>{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
     }
-
-    main>aside {
-        margin: 10;
-        padding: 10;
-        width: 50vw;
+    footer>div>a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    
+    footer>div>a>img {
+        width: 25%; 
+    }
 }
-
-
-
-
 
 /*ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS*/
 @keyframes cambiarColor {
@@ -422,6 +466,4 @@ body::-webkit-scrollbar-thumb {
         transform: rotate(360deg);
     }
 }
-/*ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS//ANIMACIONES CSS*/
-
-
+}
