@@ -50,20 +50,27 @@ body::-webkit-scrollbar-thumb {
     }
 
     nav {
-        display: grid;
         width: 100%;
+        display: grid;
     }
     nav>header {
         display: grid;
         gap: 2fr;
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         justify-content: space-between;
+    }
+
+    nav>header>div#nav>a{
+        /*background-color: violet;*/
+        display: flex;
         margin: 10px;
     }
-    #nav>a>span {
+
+    nav>header>div#nav>a>span {
         color: black;
         text-transform: uppercase;
         justify-content: center ;
@@ -71,7 +78,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 1rem;
     }
     
-    a span#web {
+    nav>header>div#nav>a>span#web {
         color: #FFE652;
         
         animation-name: rotar;
