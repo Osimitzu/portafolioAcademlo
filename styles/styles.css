@@ -192,9 +192,19 @@ body::-webkit-scrollbar-thumb {
         border-radius: 1%;
         width: 100%;
     }
-    main>section>img {
-        width: 100%;
+    main>section {
+        display: grid;
+        gap: 5px;
+    }
+    main>section>div {
+        /*background-color: black;*/
+        display: flex;
+        justify-content: center;
+    }
+    main>section>div>img {
+        width: 50%;
         border-radius: 50%;
+        box-shadow: 1px 1px 20px 1px #C2FFF9;
     }
     main>section>aside {
         background-color: rgba(255, 99, 71, 0);
@@ -278,9 +288,15 @@ body::-webkit-scrollbar-thumb {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    main>section>img {
-        width: 80%;
-        border-radius: 50%;
+    main>section>div#profilePicture {
+        /*background-color: black;*/
+        display: flex;
+        align-items: center;
+    }
+
+    main>section>div#profilePicture>img {
+        width: 65%;
+        box-shadow: 1px 1px 20px 1px #C2FFF9;
     }
     main>section>aside {
         width: 80%;
@@ -340,8 +356,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     nav {
-        /*background-color: #c2fff9;
-        background-color: transparent;*/
+        /*background-color: #c2fff9d0;*/
         position: fixed;
         z-index: 10;
         width: 100vw;
@@ -454,8 +469,9 @@ body::-webkit-scrollbar-thumb {
         grid-template-columns: repeat(2, 1fr);
     }
     main>section>img {
-        width: 80%;
+        width: 65%;
         border-radius: 50%;
+        box-shadow: 1px 1px 20px 1px #C2FFF9;
     }
     main>section>aside{
         width: 80%;
@@ -498,7 +514,7 @@ body::-webkit-scrollbar-thumb {
         cursor: pointer;
         box-shadow: 6px 4px 6px 3px #C2FFF9;
         transition: all .2s ;
-    }
+    }   
 
     footer {
         height: 85px;
