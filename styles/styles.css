@@ -215,6 +215,8 @@ body::-webkit-scrollbar-thumb:hover {
         text-align: center;
         display: flex;
         justify-self: center;
+        justify-content: center;
+        align-items: center;
     }
 
     div.gridContainer{
